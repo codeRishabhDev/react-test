@@ -42,7 +42,6 @@ const ContactForm: React.FC = () => {
     validateOnBlur: false,
     onSubmit: (values) => {
       // Handle form submission here
-      console.log(values);
       navigate('/thank-you');
     },
   });
@@ -155,7 +154,7 @@ const ContactForm: React.FC = () => {
                   formik.touched.country && errors.country ? 'border-red placeholder-red' : 'border-white'
                 }`}
               >
-                {countries.map((option) => (
+                {countries.map((option, i) => (
                   <option key={option.value} value={option.value}>
                     {option.label}
                   </option>

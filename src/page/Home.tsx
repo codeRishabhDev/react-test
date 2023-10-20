@@ -37,7 +37,7 @@ const Home: React.FC = () => {
 
             {data.weUnderstandDetails.map((item, index) => (
               <>
-                <p className="text-sm text-black leading-loose UNDERSTAND-detail" key="index">
+                <p className="text-sm text-black leading-loose UNDERSTAND-detail" key={index}>
                   {item.description}
                   {item.button &&
                     <button className="bg-[#5BC8AF] secondary-btn  h-[50px]  w-[97%] flex p-3 justify-center font-bold text-[18px] items-center gap-2 mt-4 rounded-md border-2 border-[#5BC8AF] bg-transparent text-[#5BC8AF]">
@@ -65,7 +65,7 @@ const Home: React.FC = () => {
     <CardList data={data} />
 
     {/* watch video section */}
-    <section className="bg-gradient-to-r from-[#153F38] to-[#305D52] block">
+    {/* <section className="bg-gradient-to-r from-[#153F38] to-[#305D52] block">
       <div className="w-full md:w-full max-w-[1440px] lg:flex block lg:mx-auto">
         <div className=" xl:ml-auto xl:mr-0 xl:pl-24 md:pl-8 pl-4 lg:w-[50%] md:w-full xl:ml-[120px] py-[90px]">
           <div className="">
@@ -129,7 +129,7 @@ const Home: React.FC = () => {
           />
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section className="bg-gradient-to-r from-[#153F38] to-[#305D52] block">
       <div className="xl:ml-auto xl:mr-0 xl:pl-0 md:pl-6 pl-4 w-full md:w-full max-w-[1440px] lg:flex block !mx-auto">
