@@ -15,7 +15,7 @@ interface CardListProps {
 const CardList: React.FC<CardListProps> = ({ data }) => {
   return (
     <section className="my-[100px]">
-      <div className="lg:mx-auto mx-0 px-4 lg:px-0 max-w-[1200px] w-full md:w-[98%]">
+      <div className="xl:mx-auto xl:px-0 md:px-8 px-4 max-w-[1200px] w-full md:w-[98%]">
         <div className="mt-12 mb-8">
           <h2 className="md:text-[36px] text-[24px] text-black font-bold">
             <span className="bordered-text understand-border">WE</span> CAN ORGANIZE EVERYTHING

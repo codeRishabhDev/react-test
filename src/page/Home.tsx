@@ -13,8 +13,8 @@ const Home: React.FC = () => {
     <Banner />
    
     {/* we UNDERSTAND section */}
-    <section className="md:bg-[#F5F5F5] bg-white py-12 pb-24 mt-[-1px]">
-      <div className="lg:mx-auto mx-3 max-w-[1200px] w-[98%]">
+    <section className="md:bg-[#F5F5F5] bg-white md:py-12 py-0 mt-[-1px]">
+      <div className="xl:mx-auto xl:px-0 md:px-8 px-4 max-w-[1200px] pb-24 w-full">
         <div className="flex gap-8 md:flex hidden">
           <div className="w-1/3">
             <img src="images/UNDERSTAND1.png" className="w-full rounded-md" alt="UNDERSTAND1" />
@@ -26,21 +26,21 @@ const Home: React.FC = () => {
             <img src="images/UNDERSTAND3.png" className="w-full rounded-md" alt="UNDERSTAND3" />
           </div>
         </div>
-        <div className="mt-12 mb-8">
-          <h2 className="md:text-[36px] text-[24px] text-black font-bold">
-            <span className="bordered-text understand-border">WE </span>
+        <div className="md:mt-12 mt-0 mb-8">
+          <h2 className="md:text-[36px] text-[24px] text-black heavy-font  font-extrabold">
+            <span className="bordered-text understand-border ">WE </span>
             UNDERSTAND
           </h2>
         </div>
         <div className="flex flex-wrap lg:flex-nowrap lg:gap-8 md:gap-0">
-          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 w-full lg:px-0 px-3">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 w-full lg:px-0 understand-wrapper">
 
             {data.weUnderstandDetails.map((item, index) => (
               <>
-                <p className="text-sm text-black leading-loose" key="index">
+                <p className="text-sm text-black leading-loose UNDERSTAND-detail" key="index">
                   {item.description}
                   {item.button &&
-                    <button className="bg-[#5BC8AF] h-[50px]  w-full flex p-3 justify-center font-bold text-[18px] items-center gap-2 mt-4 rounded-md border-2 border-[#5BC8AF] bg-transparent text-[#5BC8AF] w-full">
+                    <button className="bg-[#5BC8AF] secondary-btn  h-[50px]  w-[97%] flex p-3 justify-center font-bold text-[18px] items-center gap-2 mt-4 rounded-md border-2 border-[#5BC8AF] bg-transparent text-[#5BC8AF]">
                       92% Success Rate
                       <img src="images/Arrow.svg" alt="Arrow" />
                     </button>}
@@ -54,7 +54,7 @@ const Home: React.FC = () => {
 
     {/* we user testimonial section */}
     <div className='md:mt-[-40px] mt-0 w-full'>
-      <section className="mx-auto w-[250px] sm:w-[350px] md:w-[650px] lg:w-[90%] xl:w-[95%]">
+      <section className="mx-auto w-[250px] sm:w-[350px] md:w-[650px] lg:w-[950px] xl:w-[95%]">
         <div className="lg:mx-auto max-w-[1200px] w-full md:w-[98%]">
           <TestimonialCarousel name={''} description={''} img={''} />
         </div>
@@ -67,7 +67,7 @@ const Home: React.FC = () => {
     {/* watch video section */}
     <section className="bg-gradient-to-r from-[#153F38] to-[#305D52] block">
       <div className="w-full md:w-full max-w-[1440px] lg:flex block lg:mx-auto">
-        <div className="lg:w-[50%] md:w-full xl:ml-[120px] ml-3 py-[90px]">
+        <div className=" xl:ml-auto xl:mr-0 xl:pl-24 md:pl-8 pl-4 lg:w-[50%] md:w-full xl:ml-[120px] py-[90px]">
           <div className="">
             <h2 className="md:text-[44px] text-[36px] text-white font-bold mb-8 lg:text-left md:text-center">
               <span className="bordered-text">WATCH</span> THE VIDEO
@@ -119,7 +119,7 @@ const Home: React.FC = () => {
           />
           <img
             src="images/play.png"
-            className="absolute left-0 right-0 mx-auto lg:top-[40%] top-[-10%]"
+            className="absolute left-0 md:w-[200px] w-[100px] right-0 mx-auto lg:top-[40%] top-[-5%]"
             alt="play"
           />
           <img
@@ -132,8 +132,8 @@ const Home: React.FC = () => {
     </section>
 
     <section className="bg-gradient-to-r from-[#153F38] to-[#305D52] block">
-      <div className="w-full md:w-full max-w-[1440px] lg:flex block lg:mx-auto">
-        <div className="lg:w-[50%] md:w-full xl:ml-[120px] ml-3 py-[90px]">
+      <div className="xl:ml-auto xl:mr-0 xl:pl-0 md:pl-6 pl-4 w-full md:w-full max-w-[1440px] lg:flex block !mx-auto">
+        <div className=" xl:ml-auto xl:mr-0 xl:pl-24 md:pl-8 pl-4 lg:w-[50%] md:w-full xl:ml-[120px] ml-3 py-[90px]">
           <div className="">
             <h2 className="md:text-[44px] text-[36px] text-white font-bold mb-8 lg:text-left md:text-center">
               <span className="bordered-text">WATCH</span> THE VIDEO
@@ -177,11 +177,12 @@ const Home: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="lg:w-[50%] md:w-full relative items-center flex pr-5 pl-5 pb-5">
+        <div className="lg:w-[50%] md:w-full relative items-center flex pr-5 lg:pl-5 pl-0 pb-5">
           <VideoPlayer />
         </div>
       </div>
     </section>
+    
   </>
   );
 };

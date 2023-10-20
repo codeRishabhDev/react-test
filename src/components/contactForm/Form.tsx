@@ -168,7 +168,7 @@ const ContactForm: React.FC = () => {
             <div className="mt-4">
               <button
                 type="submit"
-                className="w-[220px] shadow-lg shadow-[#BBCAC7]-500/30 hover:shadow-[#BBCAC7]-500/50 text-[18px] flex justify-center font-bold text-white mt-12 p-3 border-[#5BC8AF] bg-[#5BC8AF] rounded-md mx-auto block"
+                className="w-[220px] getinto-btn hover:shadow-[#BBCAC7]-500/50 text-[18px] flex justify-center font-bold text-white mt-12 p-3 border-[#5BC8AF] bg-[#5BC8AF] rounded-md mx-auto block"
               >
                 <img className="mr-2" src="images/send.svg" alt="Send Icon" /> Submit
               </button>
