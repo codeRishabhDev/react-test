@@ -1,0 +1,52 @@
+{
+    "weUnderstandDetails": [
+      {
+        "description": "Older adults want to play active and meaningful roles in their lives, including as part of a social network, a neighborhood, and a community. Service providers and policymakers must consider that a lack of sense of purpose can become problematic as people age. Engaging them in leisure activities and volunteer work is important.",
+       "button": false
+      },
+      {
+        "description": "Older adults want to stay active and contribute to society in a reciprocal manner (meaning that they want to exchange their services and skills with others for the mutual benefit of the neighborhood or community). Qualitative and quantitative studies published from 2005 to 2016 examining the social needs of older adults were eligible for inclusion.",
+        "button": false
+      },
+      {
+        "description": "To stimulate social contacts, neighborhood initiatives can be developed. Social meeting places, such as pubs and churches can help to foster the development of close and peripheral relationships.",
+        "button": true
+      }
+    ],
+    "organizationDetails": [
+      {
+        "description": "<strong>Interventions</strong> should focus on older adult’s desire for connectedness, participation and independence."
+      },
+      {
+        "description": "Loneliness and social isolation are growing public health concerns in our aging society. Whilst these experiences occur across the life span, 50% of individuals aged over 60 are at risk of social isolation and one-third will experience some degree of loneliness later in life. It is vital to reduce loneliness and social isolation among older adults."
+      },
+      {
+        "description": "The methodology framework proposed by Asked and O’Malley and further developed by Levac, et al. was used to guide the scoping review process. A total of 33 reviews met the inclusion criteria, evaluating a range of interventions targeted at older people residing in the community or institutionalised settings."
+      }
+    ],
+    "organizationCards": [
+    {
+      "title": "Needs Assessment",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    },
+    {
+      "title": "Treatment Planning & Placement",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    },
+    {
+      "title": "Transportation & Logistics",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    },
+    {
+      "title": "Insurance Advocacy",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    },
+    {
+      "title": "Employment Advocacy",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    },
+    {
+      "title": "Aftercare Planning",
+      "description": "We’re experienced in our individual crafts and understand how each one of our roles impacts your plan holistically."
+    }
+  ]}
